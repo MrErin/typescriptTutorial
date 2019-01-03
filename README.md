@@ -3,27 +3,29 @@
 Running through a TypeScript tutorial to fill in gaps.
 
 - [Looking Around TypeScript](./1_LookingAround)
+- [Setting Up A Workspace](./2_Setup)
 
-## To Compile TypeScript via Command Line:
+## TypeScript Compiling:
 
-1. Navigate to directory that stores .ts file
+### To compile a single TypeScript file:
+
+1. Navigate to directory that stores the .ts file
 1. Run `tsc <filename>`
 1. This will create a compiled .js file of the same name
 
+### To have TypeScript watch all files in a directory
+
+1. Navigate to the directory via command line
+1. Run `tsc --init`
+
+- This will create a tsconfig.json file and watch all TypeScript files in the directory
+
+1. When ready to compile, run `tsc` in the command line
+
 ## To Run
 
-Grunt Apps
+Each directory is its own project.
 
-1. Clone the repo.
-1. From the command line, cd into the /src directory.
-1. Type `grunt` into the command line.
-1. Open a second terminal and cd into the /src directory.
-1. Type `hs -o` into the command line.
-
-React Apps
-
-1. Clone the repo.
-1. From the command line, cd into the project directory
-1. `npm install`
-1. (If created with CREATE REACT APP) `yarn install`
-1. `npm start`
+1. Navigate to the directory in the command line
+1. Run `npm install`
+1. Run `npm start`
