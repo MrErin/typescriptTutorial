@@ -22,4 +22,4 @@ Running through a TypeScript tutorial to fill in gaps.
 ## With React
 
 1. Create a directory for the project (can only use dashes, underscores, and lower case letters in directory name)
-2. From that directory, run this command: `create-react-app . --scripts-version=react-scripts-ts`
+2. From that directory, run this command: `npx create-react-app . --typescript`
