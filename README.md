@@ -2,9 +2,6 @@
 
 Running through a TypeScript tutorial to fill in gaps.
 
-- [Looking Around TypeScript](./1_LookingAround)
-- [Setting Up A Workspace](./2_Setup)
-
 ## TypeScript Compiling:
 
 ### To compile a single TypeScript file:
@@ -22,10 +19,7 @@ Running through a TypeScript tutorial to fill in gaps.
 
 1. When ready to compile, run `tsc` in the command line
 
-## To Run
+## With React
 
-Each directory is its own project.
-
-1. Navigate to the directory in the command line
-1. Run `npm install`
-1. Run `npm start`
+1. Create a directory for the project (can only use dashes, underscores, and lower case letters in directory name)
+2. From that directory, run this command: `create-react-app . --scripts-version=react-scripts-ts`
